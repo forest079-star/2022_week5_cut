@@ -1,10 +1,72 @@
----
-title: Boostrap Admin
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="author" content="" />
+<!-- 作者 -->
+<meta name="keywords" content="" />
+<!-- 關鍵字 -->
+<meta name="description" content="" />
+<!-- 網頁說明 -->
+<meta name="company" content="" />
+<!-- 公司名稱 -->
+<meta name="copyright" content="" />
+<!-- 版權宣告 -->
+<meta name="Distribution" content="" />
+<!-- 網站發佈地址 -->
+<meta property=" og:title" content="" />
+<!-- 分享的標題  -->
+<meta property="og:description" content="" />
+<!-- 分享的內容敘述 -->
+<meta property="og:url" content="" />
+<!-- 分享的網頁連結 -->
+<meta property="og:image" content="" />
+<!--分享在FB的縮圖 -->
+  <title>Boostrap Admin</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" /> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="slider d-flex flex-column">
+      <h1 class=" mb-32"><a href=""><img src="./assets/images/logo-ANSWER.svg" alt="" /></a></h1>
+      <ul class="h-100 list-unstyled font-weight-bold">
+        <li class="mb-4"><a class="d-flex align-items-center" href="#"><i
+               class="material-icons">insert_chart</i><span>Dashboard</span></a></li>
+        <li class="mb-4"><a class="d-flex align-items-center" href="#"><i
+               class="material-icons">forum</i><span>Question</span></a></li>
+        <li class="assignment mb-4 active">
+          <a class="d-flex align-items-center" href="./index.html"><i
+               class="material-icons">assignment</i><span>Assignment</span></a>
+        </li>
+        <li class="mb-4"><a class="d-flex align-items-center" href="#"><i
+               class="material-icons">video_library</i><span>Course</span></a></li>
+        <li class="admin mb-4">
+          <a class="d-flex align-items-center" href="./admin.html"><i
+               class="material-icons">supervisor_account</i><span>Admin</span></a>
+        </li>
+        <li class="d-flex align-items-center mb-4"><a class="d-flex align-items-center" href="#"><i
+               class="material-icons">settings</i><span>Settings</span></a></li>
+      </ul>
+      <div class="user d-flex mt-auto">
+        <img src="./assets/images/andychen.jpeg" alt="">
+        <div class="user-info">
+          <p class="mb-0 font-weight-bold">Andy Chen</p>
+          <p class="mb-0 ">andy0401@mail.com</p>
+        </div>
+      </div>
+    </div>
+  
+    <main class="main container-fluid">
+      <div class="row">
+        <div class="col">
+          
 <nav class="navbar navbar-expand-lg p-32">
   <h2 class=" mb-0" href="#">Admin</h2>
 
@@ -369,3 +431,16 @@ current: index
 </div>
 
 
+
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
